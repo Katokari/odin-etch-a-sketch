@@ -10,17 +10,51 @@ body {
 .container {
     height: 100vh;
     width: 100vh;
-    background-color: pink;
+    background-color: #865DFF;
     display: flex;
     flex-wrap: wrap;
 }
 
-.square {
-    background-color: blueviolet;
-    width: 6.25%;
-    height: 6.25%;
-}
-
 .square.hovered {
     background-color: black;
+}
+
+.controls {
+    background-color: #191825;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 16px;
+    font-weight: bold;
+    color: #E384FF;
+}
+
+input {
+    padding: 4px;
+    background-color: #865DFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #191825;
+    size: 16px;
+    border: 1px #E384FF solid;
+}
+
+button {
+    padding: 4px 10px;
+    background-color: #865DFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 16px;
+    font-weight: bold;
+    color: #191825;
+    border: #E384FF 1px solid;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E384FF;
 }
