@@ -20,3 +20,7 @@ body {
     width: 6.25%;
     height: 6.25%;
 }
+
+.square.hovered {
+    background-color: black;
+}
